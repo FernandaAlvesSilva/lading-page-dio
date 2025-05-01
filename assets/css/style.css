@@ -229,3 +229,40 @@ footer a{
     color: #33A8DB;
     text-decoration: none;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .banner-content h1 {
+        font-size: 30px;
+    }
+
+    .banner-content p {
+        font-size: 16px;
+    }
+
+    .banner-content button {
+        width: 200px;
+        font-size: 14px;
+    }
+
+    #course-content h2 {
+        font-size: 28px;
+    }
+
+    #course-content p {
+        font-size: 14px;
+    }
+
+    .module {
+        width: 90%;
+    }
+
+    #transform-world p {
+        font-size: 30px;
+        max-width: 80%;
+    }
+
+    #professional-challenges h2 {
+        font-size: 24px;
+    }
+}
